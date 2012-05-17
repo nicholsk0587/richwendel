@@ -1,0 +1,47 @@
+body {background: #002244; padding: 20px 10px; font-family: Tahoma, Geneva, Verdana, sans-serif; }
+
+header, .content, table {background: #FFF;}
+
+header {padding: 10px;}
+
+h1 {font-size: 150%; display: block; border-bottom: 2px solid #CCC; color: #9a0804;}
+
+nav#admin-buttons {background: #CCC; padding: 5px; text-align: center;}
+nav#admin-buttons ul li {display: inline-block;}
+
+nav#admin-buttons ul li a {display: block; height: 30px; line-height: 30px; padding: 0 10px; margin: 5px 0; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; background: #0397D6; text-transform: uppercase; color: #fff; font-size: 120%;}
+nav#admin-buttons ul li a:visited {color: #FFF;}
+
+nav#admin-buttons ul li.active a {background: #93052B; cursor: default;}
+nav#admin-buttons ul li.active a:hover {background: #0397D6;}
+
+nav#admin-buttons ul li a:hover {background: #0397D6; text-decoration: none; }
+
+h1 + p {margin: 10px 0;}
+
+ a:link, a:active, a:visited {color: #FFF; text-decoration: none;}
+.content {padding: 10px;}
+
+.modal{width:580px; max-height: 600px; overflow: auto; margin:-250px 0 0 -280px;}
+.modal-body {margin: 5px; padding: 5px;}
+
+table {font-size: 12px;}
+
+thead {background: #e9e8e8; color: #000;}
+
+table tr:nth-child(even) {background: #e9e8e8;}
+
+footer {background: #CCC; margin: 0; padding: 10px 0; text-align: center; color: #000;}
+
+.hint{font-size:85%; color:gray; font-style: italic}
+
+table.tablesorter thead tr {
+	background-image: url(.../images/asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(.../images/desc.gif);
+}
+
+input[type="text"] {width: 400px;}
+textarea.wide-text {width: 100%;}
+textarea.tall-text {height: 400px;}

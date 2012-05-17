@@ -1,0 +1,2 @@
+                <a href="http://www.facebook.com/attorneywendel" class="social" id="fb" target="_blank"></a><a href="https://twitter.com/#!/attorneywendel" class="social" id="tw" target="_blank"></a><a href="http://www.linkedin.com/company/2589171?trk=tyah" class="social" id="li" target="_blank"></a><a href="http://www.youtube.com/user/attorneywendel" class="social" id="yt" target="_blank"></a>
+               
